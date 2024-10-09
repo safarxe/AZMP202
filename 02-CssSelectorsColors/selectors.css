@@ -1,0 +1,86 @@
+/*Header elementlerine fon elave edirem*/
+header {
+    background-color: rgb(109, 160, 160);
+    color: green;
+    text-align: center;
+    padding: 10px 0;
+} 
+
+/*Ancaq h1 e stil verirem*/
+h1:first-of-type {
+    font-size: 50px 2.5em;
+}
+
+/*Umumi fon rengi elave edirem*/
+body {
+    background-color: white;
+    font-family: arial, sans-serif;
+}
+
+/*Nav icindeki ul e stil verirem*/
+nav ul {
+    background-color: darkolivegreen;
+}
+
+/*Nav icindeki kecid linklerine stil verirem*/
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+}
+
+/*Linklerin uzerine gelende reng deyistir*/
+nav ul li a:hover {
+    color: #111;
+}
+
+/*a2 classinda p ye stil verir*/
+p.a2 {
+    font-weight: bold;
+    color: #555;
+}
+
+/*yalniz 2 ci elementin rengini deyisirem */
+li:nth-of-type(2) {
+    color: red;
+}
+
+/* article icindeki ulni edit edirem */
+article ul {
+    list-style-type: square;
+}
+
+/* article icindeki sonuncu p elementini secib edit edirem */
+article p:last-of-type {
+    font-style: italic;
+}
+
+/* h2 ni secib sonuncusuna stil verirem */
+h2:last-of-type {
+    color: #008CBA;
+}
+
+/* butun linklere yasil reng verirem */
+a {
+    color: rgb(106, 212, 25);
+}
+
+/* butun ul lerin birinci elementini secirem */
+ul li:first-of-type {
+    font-weight: bold;
+}
+
+/* butun headerdeki a elementleri secib rengini deyisirem */
+header a {
+    color: white;
+}
+
+/* artikl daxilindeki her ikinci p elementinin rengini teyin edir */
+article p:nth-of-type(2) {
+    color: #888;
+}
+
+/* Her ikinci ul i secir */
+ul:nth-of-type(2) {
+    color: white;
+}

@@ -1,0 +1,30 @@
+
+h1 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+
+.a1 {
+    padding: 2px 5px;
+    background-color: #f4f4f4;
+}
+
+.qirmizi {
+    background-color: red;
+    color: white;
+}
+
+.sari {
+    background-color: yellow;
+}
+
+.yasil {
+    background-color: green;
+    color: white;
+
+}
