@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex: auto;
+    text-align: center;
+}
+
+.sctn {
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    height: 40px;
+    width: 190px;
+    background-color: black;
+    color: white;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
