@@ -1,0 +1,71 @@
+* {
+    list-style-type: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 20px;
+    border-bottom: 1px solid black
+}
+
+section ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.head li {
+    display: inline;
+}
+section ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+div.kenar {
+    width:20%;
+}
+
+.kenar ul li{
+    margin-bottom: 15px;
+}
+
+.mehsullar {
+   width: 150%;
+   display: flex;
+   gap: 20px;
+}
+
+.mehsul {
+    text-align: center;
+    padding: 20px;
+}
+
+.mehsul img {
+    width: 100%;
+    height: auto;
+}
+
+.mehsul h3 {
+    margin: 15px 0 5px;
+    font-size: 18px;
+}
+
+.mehsul p {
+    margin: 5px 0;
+    color: grey
+}
+
+
+
