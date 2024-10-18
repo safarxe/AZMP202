@@ -8,8 +8,8 @@
 }
 
 .navbar {
-    background-color: transparent;
-    padding: 20px;
+    background-color: black;
+    padding: 10px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -62,20 +62,20 @@
   .btn {
     background-color: #ffc107;
     color: #fff;
-    padding: 15px 30px;
+    padding: 24px 41px;
     text-decoration: none;
     font-size: 1.2rem;
-    border-radius: 5px;
+    border-radius: 7px;
   }
   
   .btn:hover {
     background-color: #fff;
     color: #333;
   }
-  
+
   body {
-    margin: 0;
     font-family: 'Arial', sans-serif;
+   
   }
   
   .container {
@@ -88,4 +88,68 @@
     gap: 20px;
     list-style: none;
   }
+
+  .services {
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .services p {
+    font-style: italic;
+    color: gray;
+  }
+  
+  .services2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+  }
+
+  .services .dn{
+    margin-top: 20px;
+  }
+  
+  .item {
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  
+  .item h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  .item p {
+    color: gray;
+  }
+  
+  .containerr {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Threads Explore Finish"
+      "Lines Southwest Window";
+  }
+  
+  .Threads { grid-area: Threads; }
+  
+  .Explore { grid-area: Explore; }
+  
+  .Finish { grid-area: Finish; }
+  
+  .Lines { grid-area: Lines; }
+  
+  .Southwest { grid-area: Southwest; }
+  
+  .Window { grid-area: Window; }
   
