@@ -129,12 +129,22 @@
   .item p {
     color: gray;
   }
+
+  .mid h2{
+    text-align: center;
+  }
+
+  .mid h3{
+    text-align: center;
+  }
   
   .containerr {  
+    width: 100%;
+    padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
+    gap: 20px;
     grid-auto-flow: row;
     grid-template-areas:
       "Threads Explore Finish"
@@ -152,4 +162,10 @@
   .Southwest { grid-area: Southwest; }
   
   .Window { grid-area: Window; }
+
+ .containerr img {
+    width: 400px;
+  }
+
+  
   
