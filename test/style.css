@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #eee;
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #FBB040; /* Logo ilə uyğun narıncı rəng */
+}
+
+.cta .btn {
+    background-color: #FBB040;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.language select {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.search-icon img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .navbar.active .nav-links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .search-icon img {
+        margin-top: 10px;
+    }
+}
