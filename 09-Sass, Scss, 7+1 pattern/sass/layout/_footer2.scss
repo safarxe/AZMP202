@@ -1,0 +1,23 @@
+.footer2 {
+  background-color: #fdf0e9;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #f3d1bf;
+  padding: 20px;
+  .ftr2 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  p {
+    
+  }
+
+  .footer2-link {
+    color: $Dark-Olive-Green;
+  }
+
+  .footer2-link2 {
+    color: $Dark-Olive-Green;
+  }
+}
