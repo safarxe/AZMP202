@@ -1,0 +1,9 @@
+.newsteller{
+    @include container;
+    background-color: $secondary-color;
+    padding: 20px;
+    
+    h1 {
+        color: white;
+    }
+}

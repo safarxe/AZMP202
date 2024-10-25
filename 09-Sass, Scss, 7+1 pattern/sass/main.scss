@@ -1,7 +1,18 @@
 @import "./base/reset";
 @import "./layout/header";
 @import "./utils/variables";
+@import "./utils/mixins";
+@import "./base/typography";
+@import "./utils/extends";
 @import "./pages/home";
 @import "./layout/footer";
 @import "./layout/footer2";
-@import "./base/typography";
+
+
+// @import 'abstracts/extends';
+// @import 'components/newsletter';
+// @import 'components/contact';
+
+
+
+

@@ -1,0 +1,26 @@
+@mixin reset-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin container {
+    max-width: $container-width;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@mixin button-style ($bg-clr, $font-clr) {
+    background-color: $bg-clr;
+    color: $font-clr;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

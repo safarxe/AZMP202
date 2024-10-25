@@ -35,6 +35,10 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	text-align: none;
+	
+		font-family: Arial, sans-serif;
+		background-color: $bg-clr;
+	
 }
 ol, ul {
 	list-style: none;
