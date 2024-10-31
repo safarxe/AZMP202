@@ -7,3 +7,77 @@
         color: white;
     }
 }
+
+.blog-section {
+    padding: 50px 0;
+    background-color: #fbece7;
+  
+    .title1 {
+      font-size: 36px;
+      color: #000;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  
+    .grid {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+  
+      .blog-item {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+  
+        &:hover {
+          transform: translateY(-10px);
+        }
+  
+        img {
+          width: 100%;
+          border-top-left-radius: 8px;
+          border-top-right-radius: 8px;
+        }
+  
+        .blog-content {
+          padding: 20px;
+  
+          .category {
+            font-size: 14px;
+            color: #c15e53;
+            text-transform: uppercase;
+          }
+  
+          .title1 {
+            font-size: 20px;
+            margin: 10px 0;
+            color: #000;
+          }
+  
+          .date {
+            font-size: 12px;
+            color: #888;
+          }
+        }
+      }
+    }
+  
+    .discover-btn {
+      display: block;
+      margin: 20px auto 0;
+      padding: 10px 20px;
+      background-color: #fff;
+      border: 2px solid #000;
+      border-radius: 4px;
+      color: #000;
+      text-align: center;
+      text-transform: uppercase;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #f4d3d0;
+      }
+    }
+  }
+  
