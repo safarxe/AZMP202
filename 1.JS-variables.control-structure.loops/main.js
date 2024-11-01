@@ -47,15 +47,15 @@ let number = +prompt("Enter number");
 let found = false;
 
 for (let i = 0; i < arr.length; i++) {
-    if (arr[i] === number) {
+    if (arr[i] === number)
         found = true;
         break;
 }
 
 if (found) {
-    console.log("Eded tapildi!");
+    alert("Eded tapildi!");
 } else {
-    console.log ("Eded tapilmadi!");
+    alert("Eded tapilmadi!");
 }
 
 
