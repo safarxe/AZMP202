@@ -42,3 +42,20 @@
     
 // }
 
+let arr = [1, 11, 25, 36, 43, 49, 65, 76, 89, 91];
+let number = +prompt("Enter number");
+let found = false;
+
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === number) {
+        found = true;
+        break;
+}
+
+if (found) {
+    console.log("Eded tapildi!");
+} else {
+    console.log ("Eded tapilmadi!");
+}
+
+
