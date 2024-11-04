@@ -42,20 +42,27 @@
     
 // }
 
-let arr = [1, 11, 25, 36, 43, 49, 65, 76, 89, 91];
-let number = +prompt("Enter number");
-let found = false;
+Let text = prompt("Enter a text");
+let revers="";
 
-for (let i = 0; i < arr.length; i++) {
-    if (arr[i] === number)
-        found = true;
-        break;
+for (let i = text.length-1; i < ; i++) {
+    
 }
 
-if (found) {
-    alert("Eded tapildi!");
-} else {
-    alert("Eded tapilmadi!");
-}
+// let arr = [1, 11, 25, 36, 43, 49, 65, 76, 89, 91];
+// let number = +prompt("Enter number");
+// let found = false;
+
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === number)
+//         found = true;
+//         break;
+// }
+
+// if (found) {
+//     alert("Eded tapildi!");
+// } else {
+//     alert("Eded tapilmadi!");
+// }
 
 
