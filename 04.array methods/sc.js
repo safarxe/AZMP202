@@ -84,10 +84,10 @@ console.log(sum); */
     (item.name.endsWith("t"))
 } ... */
 
-// !5) "name"-i en uzun olan obyekti tapin
+// !5) "name"-i en uzun olan ob1yekti tapin
 
 arr.forEach((item) => {
-   item.name.length
+   item.name.length max
 });
 
 // ...
