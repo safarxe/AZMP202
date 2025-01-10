@@ -42,10 +42,10 @@
     
 // }
 
-Let text = prompt("Enter a text");
+let text = prompt("Enter a text");
 let revers="";
 
-for (let i = text.length-1; i < ; i++) {
+for (let i = text.length-1; i < i++) {
     
 }
 
