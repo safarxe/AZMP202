@@ -1,1 +1,1 @@
-# AZMP202-HomeWorks
+# AZMP202-homeworks and classworks
