@@ -1,4 +1,5 @@
-const User = require("../Model/models")
+const ProductModel = require("../Model/models")
+
 
 const getAllData = async (req,res) =>{
     try {

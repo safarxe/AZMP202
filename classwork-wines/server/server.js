@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const productRouter = require("./routes/productRoute");
 
 const DB_URL =
-  "mongodb+srv://safar:safar@cluster0.xsi5e.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://safar:safar@cluster0.xsi5e.mongodb.net/";
 const PASSWORD = "safar";
 const PORT = 8080;
 const app = express();
